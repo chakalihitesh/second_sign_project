@@ -345,7 +345,6 @@ def history_view(request):
 from django.urls import reverse
 from .models import Course, CourseSection, Lesson, LessonProgress, SectionProgress, CourseQuizAttempt, UserProfile, PracticeAttempt
 from .course_data import get_user_course_progress, search_section_signs, seed_isl_course, generate_section_quiz, check_quiz_answer
-from .sign_recognition import analyze_practice_sign, lookup_sign_for_practice, SUPPORTED_RECOGNITION_SIGNS, CANONICAL_SIGNS
 from django.utils import timezone
 
 
